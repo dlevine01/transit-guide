@@ -1,0 +1,79 @@
+
+
+h2 {
+    
+    font-family: 'Raleway',serif;
+    font-weight: 500;
+}
+
+p{
+    font-size: 17px;
+}
+
+.page-top {
+    vertical-align: baseline;
+    margin: 0 -15px -15px;
+}
+
+a .fa-external-link{
+    display: none;
+}
+
+a:hover .fa-external-link {
+    
+    display: initial;
+    font-size: 75%;
+}
+
+.page-top h1{
+    color: #fff;
+    margin-top: -1.5em;
+    margin-left: 15px;
+    font-size: 25px;
+    font-size: 7vw;
+}
+
+.section-box{
+    padding: 1em 0 1em 1em;
+    margin: 1em 0 1em 0;
+    max-height: 5em;
+    overflow: hidden;
+    transition: width 2s;
+}
+
+.section-box:hover{
+    width: 110%;
+    max-height: none;
+    padding-right: 11%;
+    
+}
+
+.ellipsis{
+    float: right;
+}
+
+.section-box:hover .ellipsis{
+    display: none;
+}
+
+#intro{
+    background-color: #EFC69B;
+}
+
+#coalition{
+    background-color: #c6538c;
+}
+
+#message{
+    background-color:#e68a00;
+}
+#problems-solutions{
+    background-color: #5c85d6;
+}
+#appendix{
+    background-color: #DF9B6D;
+}
+
+/*colors: https://coolors.co/efc69b-af1b3f-473144-ccb69b-df9b6d */
+
+}

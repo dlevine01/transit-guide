@@ -1,0 +1,46 @@
+
+.title-img {
+    margin: 0;
+    padding: 0;
+    max-height: 75vh;
+}
+
+h1 {
+    color: #fff;
+    margin-top: -2em;
+}
+
+.list-unstyled {
+    list-style:none;
+}
+
+
+@media only screen and (min-width: 600px) {
+    
+    p {
+        padding-left: 8vw
+    }
+    
+    h2{
+        padding-left: 3vw;
+    }
+    
+    h3, p.lede{
+        padding-left: 6vw;
+    }
+    
+    .right-col-sticky p, .right-col-sticky h4, .right-col-sticky ul{
+        padding-left: 0;
+    }
+    
+    .right-col-sticky {
+        margin: 0;
+        position: -webkit-sticky;
+        position: sticky;
+        top: -1px;
+    }
+}
+
+
+
+
